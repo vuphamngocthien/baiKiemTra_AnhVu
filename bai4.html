@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let list = [1, 1, 2, 3];
+      let list2 = list;
+
+      for (let i = 0; i < list.size; i++) {
+        for (let j = 0; j < list.size; j++) {
+          if (i == j) {
+            continue;
+          } else if (list.indexOf(i) == list.indexOf(i)) {
+            let a = list.indexOf(i);
+            list2.splice(a);
+            list2.splice(a);
+
+            continue;
+          }
+        }
+      }
+      console.log("phan tu chi xuat hien 1");
+      for (let i = 0; i < list2.size; i++) {
+        console.log(list2.indexOf(i));
+      }
+    </script>
+  </body>
+</html>
